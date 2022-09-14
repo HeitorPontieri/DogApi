@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(200px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 12px;
+    padding: 12px;
+    
+}
+
+#galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.raca {
+    width: 90vw;
+    height: 5vh;
+
+
+
+}
